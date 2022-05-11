@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+*{
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.625);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex ;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 100px ;
+} 
+.logo{
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+    font-size: 1.8cm;
+}
+.navigation a{
+color: red;
+text-decoration: none;
+font-size: 1cm;
+font-weight: 500;
+padding-left: 30px;
+
+}
+.navigation a:hover{
+    color:rgb(67, 18, 10) ;
+}
+section{
+    padding: 200px 40px;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.main h2 {
+    color:rgb(244, 226, 225);
+    max-width: 13cm;
+    font-size:1.8cm;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.516);
+    display: inline-block;
+    border-radius: 15px;
+} 
+.main h5{
+    color: aliceblue;
+    max-width: 100cm;
+    background-color:rgba(0, 0, 0, 0.518); 
+    display: flex;
+    width: 20cm;
+    height: 3cm;
+    font-size:medium;
+}
+
+.botn{
+    text-decoration: none;
+}
+.main img{
+    margin: left 4cm;;
+    margin-bottom: 0cm;
+    display: inline-block;
+   margin-top: 1cm;
+
+}
+.botton{
+    background-color: red;
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 50px;
+    margin-top: 1.2cm;
+    margin-left: 15px;
+
+}
+.main-btn{
+    background-color: rgb(222, 23, 23);
+    text-decoration: rgb(255, 0, 0);
+    color:white;
+    font-size: 0.9cm;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+  right: 40;
+} 
+aside{
+    font-size: small;
+    width: 1.2cm;
+    height: 1.2cm;
+    margin-top: 5cm;
+ margin-right: 24cm;
+ margin-left: 1cm;
+    border-radius: 15px;
+    background-color: rgba(19, 8, 6, 0)
+   
+} 
+.actors{
+    background-color: rgba(0, 0, 0, 0.414);
+  font-size: 0.8cm;
+
+  font-family:fantasy ; 
+  color: rgb(212, 212, 212); 
+
+}
+.zi{
+    background-color: rgba(0, 0, 0, 0); 
+}
+.jason{
+    margin-right: 1.5cm;
+    display: inline-block;
+}
+.item{
+    color: aliceblue;
+    font-family:cursive;
+    font-size:0.6cm;
+    display: inline-block;
+}
+.story{
+    font-family: fantasy;
+    color: gainsboro;
+    font-size: xxx-large;
+}
